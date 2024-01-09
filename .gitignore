@@ -1,0 +1,70 @@
+# Créé par https://www.toptal.com/developers/gitignore/api/eclipse
+# Modifier sur https://www.toptal.com/developers/gitignore?templates=eclipse
+
+### Éclipse ###
+.métadonnées
+poubelle/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.propriétés
+.paramètres/
+.loadpath
+.recommandateurs
+
+# Constructeurs d'outils externes
+.externalToolBuilders/
+
+# "Configurations de lancement d'Eclipse" stockées localement
+*.lancement
+
+# Spécifique à PyDev (IDE Python pour Eclipse)
+*.pydevprojet
+
+# Spécifique à CDT (outils de développement C/C++)
+.cproject
+
+# CDT - outils automatiques
+.autotools
+
+# Processeur d'annotations Java (APT)
+.chemin d'usine
+
+# Spécifique à PDT (outils de développement PHP)
+.buildpath
+
+# plugin sbteclipse
+.cible
+
+# Plugin Terne
+.tern-projet
+
+# Plugin TeXlipse
+.texlipse
+
+# STS (Suite d'outils Spring)
+.springBeans
+
+# Recommandateurs de code
+.recommandants/
+
+# Traitement des annotations
+.apt_generated/
+.apt_generated_test/
+
+# Spécifique à Scala IDE (développement Scala & Java pour Eclipse)
+.cache-main
+.scala_dépendances
+.feuille de travail
+
+# Décommentez cette ligne si vous souhaitez ignorer le fichier de description du projet.
+# Généralement, ce fichier sera suivi s'il contient des configurations de build/dépendance :
+#.projet
+
+### Patch Eclipse ###
+#Outillage de démarrage Spring
+.sts4-cache/
+
+# Fin de https://www.toptal.com/developers/gitignore/api/eclipse
